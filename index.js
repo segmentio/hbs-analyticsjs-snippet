@@ -1,6 +1,6 @@
 
 var defaults = require('defaults');
-var snippet = require('snippet');
+var snippet = require('segmentio-snippet');
 
 
 /**
@@ -19,13 +19,14 @@ module.exports = generate;
  *   @param {String} host
  * @return {String}
  */
+
 function generate (writeKey, options) {
   options = defaults(options, { min: true });
   var opts = defaults(options, {
     apiKey: writeKey,
-    host: 'cdn.segment.io'
+    host: 'd2dq2ahtl5zl1z.cloudfront.net'
   });
-  var fn = options.min ? render.min : render.max;
+  var fn = options.min ? snippet.min : snippet.max;
   var rendered = fn(opts);
   return function () {
     return rendered;

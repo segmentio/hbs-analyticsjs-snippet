@@ -12,12 +12,12 @@
 var snippet = require('hbs-analyticsjs-snippet');
 var hbs = require('hbs');
 
-hbs.registerHelper('analytics', snippet('WRITE_KEY'));
+hbs.registerHelper('analyticsjs', snippet('WRITE_KEY'));
 ```
 
 ```html
  <script>
-    {{ analytics }}
+    {{ analyticsjs }}
   </script>
 ```
 
@@ -30,7 +30,7 @@ hbs.registerHelper('analytics', snippet('WRITE_KEY'));
 ```js
 {
   min: true, // minified snippet by default
-  host: 'cdn.segment.io' // where your analytics.js is hosted
+  host: 'd2dq2ahtl5zl1z.cloudfront.net' // where your analytics.js is hosted
 }
 ```
 
