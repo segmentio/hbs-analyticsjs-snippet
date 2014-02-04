@@ -7,6 +7,10 @@
     "handlebars",
     "snippet"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/segmentio/hbs-analyticsjs-snippet.git"
+  },
   "dependencies": {
     "defaults": "~1.0.0",
     "segmentio-snippet": "~2.0.6"
