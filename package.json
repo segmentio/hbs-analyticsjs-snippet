@@ -1,13 +1,13 @@
 {
   "name": "hbs-analyticsjs-snippet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Handlebars helper for the analytics.js snippet.",
   "keywords": [
     "analytics.js",
     "handlebars",
     "snippet"
   ],
-  "repository" : "segmentio/hbs-analyticsjs-snippet",
+  "repository": "segmentio/hbs-analyticsjs-snippet",
   "dependencies": {
     "defaults": "~1.0.0",
     "segmentio-snippet": "~2.0.6"
