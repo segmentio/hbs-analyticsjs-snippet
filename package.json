@@ -1,6 +1,6 @@
 {
   "name": "hbs-analyticsjs-snippet",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Handlebars helper for the analytics.js snippet.",
   "keywords": [
     "analytics.js",
