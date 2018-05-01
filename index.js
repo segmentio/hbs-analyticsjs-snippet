@@ -24,7 +24,7 @@ function generate (writeKey, options) {
   options = defaults(options, { min: true });
   var opts = defaults(options, {
     apiKey: writeKey,
-    host: 'd2dq2ahtl5zl1z.cloudfront.net'
+    host: 'cdn.segment.com'
   });
   var fn = options.min ? snippet.min : snippet.max;
   var rendered = fn(opts);
