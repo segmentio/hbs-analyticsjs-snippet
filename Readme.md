@@ -30,7 +30,7 @@ hbs.registerHelper('analyticsjs', snippet('WRITE_KEY'));
 ```js
 {
   min: true, // minified snippet by default
-  host: 'd2dq2ahtl5zl1z.cloudfront.net' // where your analytics.js is hosted
+  host: 'cdn.segment.com' // where your analytics.js is hosted
 }
 ```
 
